@@ -10,7 +10,7 @@ without using the "built-in" button attribute of the html audio controls tag.
 Additionally, the user has the ability to load songs from the playlist
 using the "LAST" and "NEXT" methods created in for the Jukebox object in JavaScript.
 
-<h2>UI Features:</gh2><br>
+<h2>UI Features:</h2><br>
 <ul>
 	<li>**Simple, Intutitive Design** that is **Fully Responsive** for Web, Tablet, and Phone - Created Using Bootstrap</li>
 	<li>**Intuitive Buttons** with **Interactive Design** for User - React to Mouseover, Select and Active - Created Using SASS</li>
