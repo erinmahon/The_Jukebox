@@ -15,12 +15,12 @@ UI Features:
 **Intuitive Buttons** with **Interactive Design** for User - React to Mouseover, Select and Active - Created Using SASS
 Displays the Current Song Playing 
 
-iPhone Display:
+<h2>iPhone Display:</h2> <br>
 <img width="298" alt="iphone" src="https://cloud.githubusercontent.com/assets/14220315/12618465/f0ad2612-c4e1-11e5-8bf4-1a2e2ae6ad10.png">
 
-iPad Display:
+<h2>iPad Display:</h2> <br>
 <img width="751" alt="ipad" src="https://cloud.githubusercontent.com/assets/14220315/12618467/f0b2b8d4-c4e1-11e5-9f99-790db1ff3f97.png">
 
-Desktop Display:
+<h2>Desktop Display:</h2> <br>
 <img width="1418" alt="desktop" src="https://cloud.githubusercontent.com/assets/14220315/12618466/f0aed7fa-c4e1-11e5-973e-5d6d027a4c89.png">
 
