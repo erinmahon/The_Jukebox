@@ -1,7 +1,7 @@
 # The_Jukebox
 
 This JavaScript Jukebox is a playlist of 10 songs, 
-created entirely in JavaScript using audio files to instaniate new instances of a defined Song obejct.
+created entirely in JavaScript using audio files to instantiate new instances of a defined Song obejct.
 The Jukebox is baked by an object called Jukebox, with methods to play, pause, stop, and load songs.
 
 The Jukebox gives the user the ability to play, pause and stop the songs on the playlist
