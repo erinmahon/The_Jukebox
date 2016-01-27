@@ -1,0 +1,108 @@
+$default-orange: #eb7e39;
+
+$default-light-orange: #f5ac81;
+
+$default-blue: #79cbc7;
+
+$default-dark-blue: #27827e;
+
+$default-navy: #162230;
+
+$default-black: #000000;
+
+$default-white: #ffffff;
+
+
+body{
+	
+    background: $default-navy;
+    background: url("../../images/Jukebox1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+     // background-position: 0 150px; 
+}
+
+// styling of header featuring button logo, button controls, and now playing field
+
+header {
+	background: rgba(22,34,48, 0.9);
+	padding: 20px;
+	position: relative;
+	height: 160px;
+    z-index: 0;
+}
+
+#title {
+    text-align: center;
+}
+
+.playing {
+    background: $default-navy;
+    opacity: 0.9;
+    color: $default-white;
+    text-align: center;
+    border: 4px solid $default-blue;
+    font-size: 1.15em;
+    padding: 5px;
+    font-style: italic;
+    // border: 2px solid black;
+    width: 100%;
+    letter-spacing: 0.1em;
+}
+
+#now_playing {
+    // border: 1px solid black;
+    width: 100%;
+    // height: 12x0px;
+    background: $default-dark-blue;
+}
+
+#logo {
+    width: 100%;
+}
+
+#controls {
+    width: 100%;
+    display: inline;
+    // position: relative;
+    text-align: center;
+    background: $default-blue;
+}
+
+// syling of buttons for interactive experience
+.btn {
+    padding: 4px;
+    border: 2px solid $default-light-orange;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 3px;
+    height: 30px;
+    // width: 20%;
+    font-size: 0.75em;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline-color: $default-dark-blue;
+}
+ 
+.btn-primary {
+    background: $default-orange;
+    color: $default-white;
+}
+
+.btn-primary:focus {
+    background: $default-dark-blue;
+}
+ 
+.btn-primary:hover {
+    background: $default-light-orange;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: $default-dark-blue;
+    box-shadow: none;
+}
+
